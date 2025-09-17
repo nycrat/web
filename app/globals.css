@@ -6,6 +6,7 @@
   --pink-50: #f3eaea;
   --pink-100: #ddd5d5;
   --blue-100: #d5dce9;
+  --blue-200: #3f3a61;
 }
 
 @theme inline {
@@ -15,6 +16,7 @@
   --color-pink-50: var(--pink-50);
   --color-pink-100: var(--pink-100);
   --color-blue-100: var(--blue-100);
+  --color-blue-200: var(--blue-200);
 
   --font-sans: var(--font-bellota);
   --font-mono: var(--font-iosevka);
@@ -23,5 +25,5 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-bellota), Arial, Helvetica, sans-serif;
 }
